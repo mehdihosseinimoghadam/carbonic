@@ -1,0 +1,8 @@
+pip install -t ./lib -r requirements.txt --platform manylinux2024_x86_64 --only-binary=:all:
+
+pip3 install -t dependencies -r requirements.txt 
+(cd lib; zip ../lambda_function.zip -r .)
+zip lambda_function.zip -u countries.csv 
+zip lambda_function.zip -u country-code-to-currency-code-mapping.csv
+zip lambda_function.zip -u results\ \(2\).csv   
+zip lambda_function.zip -u main.py     

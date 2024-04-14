@@ -1,0 +1,9 @@
+pandas
+CurrencyConverter
+fastapi
+uvicorn
+mangum
+pydantic
+requests
+gunicorn
+
